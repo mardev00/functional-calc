@@ -83,7 +83,6 @@ public class Calculator {
 		}
 
 
-	// eval((i, j ) -> i - j , 3, 1);
 	public  int eval(BinaryOperator<Integer> oper, int i1, int i2) {
 		return oper.apply(i1, i2);
 	}

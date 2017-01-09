@@ -34,14 +34,6 @@ public class CalculatorTest {
 		int result = myCalc.eval((i, j ) -> i / j , 20, 2);
 		Assert.assertEquals(10, result);
 	}
-	
-	@Test
-	public void test_Expression_1() {
-		Calculator myCalc = new Calculator();
-		String exp = "3+5";
-		int result = myCalc.calculateExpression(exp);
-		System.out.println("Result is: " + result);
-		Assert.assertEquals(8, result);
-	}
+
 
 }
